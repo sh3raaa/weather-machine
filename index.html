@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Control Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Weather Control Machine</h1>
+    <p>Click a button to change the weather!</p>
+
+    <button onclick="weatherChanger('sunny')">Sunny ☀️</button>
+    <button onclick="weatherChanger('rainy')">Rainy 🌧️</button>
+    <button onclick="weatherChanger('snowy')">Snowy ❄️</button>
+
+    <h2 id="weather">Choose any weather you want !</h2>
+    <p id="message">What will the weather be?</p>
+    <p id="count">Number of weather changes: 0</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
